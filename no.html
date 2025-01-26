@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #bbbdda, #87bcea);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      width: 100%;
+      max-width: 1200px;
+    }
+    .grid-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    .grid-container img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Back Button Styling */
+    .back-button {
+      margin-top: 20px;
+    }
+
+    .back-button a {
+      text-decoration: none;
+    }
+
+    .back-button button {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      background-color: #1d3d60;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button button:hover {
+      background-color: #5fc4e0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Koi option nahi hai tere pass😉...</h1>
+  <div class="grid-container">
+    <img src="3.jpg" alt="Image 3">
+    <img src="5.jpg" alt="Image 5">
+    <img src="6.jpg" alt="Image 6">
+    <img src="7.jpg" alt="Image 7">
+    <img src="8.jpg" alt="Image 8">
+    <img src="9.jpg" alt="Image 9">
+    <img src="10.jpg" alt="Image 10">
+    <img src="1.jpg" alt="Image 1">
+    <img src="2.jpg" alt="Image 2">
+    <img src="4.jpg" alt="Image 4">
+    <img src="12.jpg" alt="Image 12">
+    <img src="16.jpg" alt="Image 16">
+  </div>
+  <!-- Back Button -->
+  <div class="back-button">
+    <a href="index.html">
+      <button>Back</button>
+    </a>
+  </div>
+</body>
+</html>
